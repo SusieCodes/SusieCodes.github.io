@@ -1,6 +1,7 @@
 import React from "react";
 import lifedash from "../images/lifehackermockup.png";
 import cohort from "../images/cohort51mockup.png";
+import baker from "../images/bakersblissmockup.png";
 
 export const Projects = () => {
   return (
@@ -15,33 +16,67 @@ export const Projects = () => {
             <div className="box2">
               <h2>Life Hacker App</h2>
               <p>
-                Chocolate cake sweet carrot cake macaroon dessert. Brownie
-                muffin chocolate bar ginger bread pudding ginger bread. Tart
-                short bread jelly-o topping pie donut bear claw. Sweet topping
-                croissant jelly beans marsh mallow gummis.
+                I created this project as my first capstone for the Front-End
+                Developer bootcamp at NSS. This fully functioning web-based app
+                has full CRUD capabilities (Create, Read, Update, and Delete).
+                It was built using the React framework and coded in HTML, CSS,
+                and Javascript. The database is hosted on Heroku servers.
               </p>
 
               <div className="btn-wrapper">
-                <div className="btn-dark">Github</div>
-                <div className="btn-light">Figma</div>
+                <a
+                  href="https://github.com/SusieCodes/lifehacker"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="btn-dark">Github</div>
+                </a>
+                <a
+                  href="https://youtu.be/yYP9dOdY4Fw"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="btn-light">Youtube</div>
+                </a>
               </div>
             </div>
           </div>
           <div className="card">
             <div className="box1">
-              <img src={cohort} alt="cohort51 figma" />
+              <a
+                href="https://nss-day-cohort-51.github.io/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={cohort} alt="cohort51 website" />
+              </a>
             </div>
             <div className="box2">
-              <h2>Cohort 51 Website</h2>
+              <a
+                href="https://nss-day-cohort-51.github.io/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h2>Cohort 51 Website</h2>
+              </a>
               <p>
-                Chocolate cake sweet carrot cake macaroon dessert. Brownie
-                muffin chocolate bar ginger bread pudding ginger bread. Tart
-                short bread jelly-o topping pie donut bear claw. Sweet topping
-                croissant jelly beans marsh mallow gummy bears croissant jelly.
+                Nashville Software School C51 website was built as a group
+                project. Our team had a blast learning all about the User
+                Experience (UX) as we worked to bring it to life. We explored
+                personas, user research, usability testing, wireframing,
+                prototyping, and collaborated in Figma to pull it all together.
+                We created the site within the React framework and coded it out
+                using HTML, CSS/SCSS, and Javascript.
               </p>
 
               <div className="btn-wrapper">
-                <div className="btn-dark">Github</div>
+                <a
+                  href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="btn-dark">Github</div>
+                </a>
                 <a
                   href="https://www.figma.com/file/AsTeIingVjOPrXGbYBjmdJ/Cohort-Website-Design?node-id=0%3A1"
                   target="_blank"
@@ -56,6 +91,58 @@ export const Projects = () => {
                 >
                   <div className="btn-dark">Prototype</div>
                 </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="box1">
+              <a
+                href="https://susiecodes.github.io/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={baker} alt="Baker's Bliss app" />
+              </a>
+            </div>
+            <div className="box2">
+              <a
+                href="https://susiecodes.github.io/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h2>Baker's Bliss</h2>
+              </a>
+              <p>
+                Coming soon... check back for updates. I will post them as I go.
+                <br />
+                <br />I am currently working on my second capstone for the
+                full-time web developer program at NSS. I'm creating this app
+                using React (HTML, CSS/SCSS, and Javascript)
+              </p>
+
+              <div className="btn-wrapper">
+                {/* <a
+                  href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io"
+                  target="_blank"
+                  rel="noreferrer"
+                > */}
+                <div className="btn-dark">Github</div>
+                {/* </a> */}
+                {/* <a
+                  href="https://www.figma.com/file/AsTeIingVjOPrXGbYBjmdJ/Cohort-Website-Design?node-id=0%3A1"
+                  target="_blank"
+                  rel="noreferrer"
+                > */}
+                <div className="btn-light">Figma</div>
+                {/* </a> */}
+                {/* <a
+                  href="https://www.figma.com/proto/RjPnJ4xrvjgEBBPvwayI9M/C-51-Prototype---Desktop"
+                  target="_blank"
+                  rel="noreferrer"
+                > */}
+                <div className="btn-dark">Prototype</div>
+                {/* </a> */}
               </div>
             </div>
           </div>

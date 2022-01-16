@@ -18,9 +18,10 @@ export const Projects = () => {
               <p>
                 I created this project as my first capstone for the Front-End
                 Developer bootcamp at NSS. This fully functioning web-based app
-                has full CRUD capabilities (Create, Read, Update, and Delete).
-                It was built using the React framework and coded in HTML, CSS,
-                and Javascript. The database is hosted on Heroku servers.
+                has full CRUD capabilities (Create, Read, Update, and Delete)
+                using JSON server. It was built using the React framework and
+                coded in HTML, CSS, and Javascript. The database is hosted on
+                Heroku servers.
               </p>
 
               <div className="btn-wrapper">

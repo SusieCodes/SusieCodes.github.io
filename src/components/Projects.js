@@ -61,13 +61,13 @@ export const Projects = () => {
                 <h2>Cohort 51 Website</h2>
               </a>
               <p>
-                Nashville Software School C51 website was built as a group
-                project. Our team had a blast learning all about the User
-                Experience (UX) as we worked to bring it to life. We explored
-                personas, user research, usability testing, wireframing,
-                prototyping, and collaborated in Figma to pull it all together.
-                We created the site within the React framework and coded it out
-                using HTML, CSS/SCSS, and Javascript.
+                Our class website was built as a group project. Our team had a
+                blast learning all about the User Experience (UX) as we worked
+                to bring it to life. We explored personas, user research,
+                usability testing, wireframing, prototyping, and collaborated in
+                Figma to pull it all together. We created the site within the
+                React framework and coded it out using HTML, CSS/SCSS, and
+                Javascript.
               </p>
 
               <div className="btn-wrapper">

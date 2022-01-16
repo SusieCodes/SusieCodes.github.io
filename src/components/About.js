@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../images/pinkbeanset.svg";
+import profile from "../images/pinkbeanset.png";
 
 export const About = () => {
   return (

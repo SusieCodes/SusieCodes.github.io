@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.890e08b1.css",
-    "main.js": "/static/js/main.832a1d49.js",
+    "main.css": "/static/css/main.079bf415.css",
+    "main.js": "/static/js/main.eae7176c.js",
     "static/media/cohort51mockup.png": "/static/media/cohort51mockup.237554d2b4b683d8c65d.png",
     "static/media/pinkbeanset.png": "/static/media/pinkbeanset.c71a8c100fa54648a3b4.png",
     "static/media/SusieStanleyLogo.svg": "/static/media/SusieStanleyLogo.edff174e4ceebe8cca9b9bd92dd1d0ea.svg",
     "static/media/lifehackermockup.png": "/static/media/lifehackermockup.286713a404f351d6670e.png",
+    "static/media/bakersblissmockup.png": "/static/media/bakersblissmockup.d8cfed227c12b6f9ce1e.png",
     "static/media/robinflip.svg": "/static/media/robinflip.eeb466b2b9ac764c478faeed57adcbe1.svg",
     "static/media/sophistica_3-webfont.woff": "/static/media/sophistica_3-webfont.52891659360e65cf3948.woff",
     "index.html": "/index.html",
-    "main.890e08b1.css.map": "/static/css/main.890e08b1.css.map",
-    "main.832a1d49.js.map": "/static/js/main.832a1d49.js.map"
+    "main.079bf415.css.map": "/static/css/main.079bf415.css.map",
+    "main.eae7176c.js.map": "/static/js/main.eae7176c.js.map"
   },
   "entrypoints": [
-    "static/css/main.890e08b1.css",
-    "static/js/main.832a1d49.js"
+    "static/css/main.079bf415.css",
+    "static/js/main.eae7176c.js"
   ]
 }

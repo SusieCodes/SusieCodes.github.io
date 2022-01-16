@@ -66,8 +66,8 @@ export const Projects = () => {
                 to bring it to life. We explored personas, user research,
                 usability testing, wireframing, prototyping, and collaborated in
                 Figma to pull it all together. We created the site within the
-                React framework and coded it out using HTML, CSS/SCSS, and
-                Javascript.
+                React framework and coded it out using HTML, CSS/SCSS,
+                Javascript and Bootstrap.
               </p>
 
               <div className="btn-wrapper">

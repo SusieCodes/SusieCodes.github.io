@@ -1,0 +1,159 @@
+// Color palette ***********
+$black: #242424;
+$white: #ffffff;
+$pink: #f4dcdf;
+$lightpink: #f8e6e9;
+$darkpink: #e7aeb6;
+$bgpink1: #f8f2f3;
+$bgpink2: #eadee0;
+// rainbow icon colors
+$red: #ff5964;
+$orange: #ff9b71;
+$yellow: #eed059;
+$green: #bce48b;
+$skyblue: #7ec2da;
+$lilac: #bd93bd;
+$rose: #efa8b8;
+// *************************
+
+#projects {
+  background-color: $bgpink2;
+}
+
+.projects {
+  .card {
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #ababab;
+    padding: 25px 15px 15px;
+    margin: 20px 0px;
+
+    // this holds the image
+    .box1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      margin: 0px;
+      img {
+        width: 100%;
+      }
+    }
+    // this holds the text
+    .box2 {
+      padding-top: 20px;
+      text-align: left;
+
+      h2 {
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      p {
+        text-align: justify;
+        padding: 10px;
+        margin-bottom: 0px;
+      }
+
+      .btn-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 0px;
+
+        a {
+          text-decoration: none;
+          color: $black;
+        }
+        .btn-dark,
+        .btn-light {
+          color: $black;
+          padding: 5px 15px;
+          margin: 10px 15px;
+          border-radius: 8px;
+          box-shadow: 2px 2px 5px 0px #ababab;
+          cursor: pointer;
+          transition-duration: 0.2s;
+          transition-timing-function: ease-in-out;
+        }
+        .btn-dark {
+          background-color: #fadde1;
+        }
+        .btn-light {
+          background-color: $lightpink;
+        }
+        .btn-dark:hover,
+        .btn-light:hover {
+          transform: scale(1.2);
+          background-color: $darkpink;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+// MEDIA QUERY FOR SCREENS 480PX OR LARGER
+@media only screen and (min-width: 480px) {
+  .projects {
+    padding: 0px 10px 5px;
+  }
+}
+
+// MEDIA QUERY FOR SCREENS 768PX OR LARGER
+@media only screen and (min-width: 768px) {
+  .projects {
+    padding: 0px 40px;
+    .card {
+      padding: 30px 50px;
+      margin: 30px 0px;
+
+      .box1 {
+        padding: 20px;
+      }
+    }
+  }
+}
+
+// MEDIA QUERY FOR SCREENS 992PX OR LARGER
+@media only screen and (min-width: 992px) {
+  .projects {
+    h1 {
+      margin-top: 10px;
+    }
+    .card {
+      padding: 0px 15px;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: no-wrap;
+
+      .box1 {
+        padding: 0px 5px;
+      }
+      .box2 {
+        padding: 20px 10px 0px;
+      }
+      .box1,
+      .box2 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin: 0px 5px;
+
+        h2 {
+          padding: 0px;
+          margin: 15px 0px;
+        }
+        .btn-wrapper {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}

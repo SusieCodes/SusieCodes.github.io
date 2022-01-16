@@ -1,0 +1,111 @@
+// Color palette ***********
+$black: #242424;
+$white: #ffffff;
+$pink: #f4dcdf;
+$lightpink: #f8e6e9;
+$darkpink: #e7aeb6;
+$bgpink1: #f8f2f3;
+$bgpink2: #eadee0;
+// rainbow icon colors
+$red: #ff5964;
+$orange: #ff9b71;
+$yellow: #eed059;
+$green: #bce48b;
+$skyblue: #7ec2da;
+$lilac: #bd93bd;
+$rose: #efa8b8;
+// *************************
+
+@import "./styles/navbar.scss";
+@import "./styles/about.scss";
+@import "./styles/projects.scss";
+@import "./styles/tech.scss";
+@import "./styles/design.scss";
+@import "./styles/footer.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@font-face {
+  font-family: "Sophistica";
+  src: local("Sophistica"),
+    url(./fonts/sophistica_3-webfont.woff) format("woff");
+}
+@import "~bootstrap/scss/bootstrap";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+// THIS WEBSITE IS BEST VIEWED ON A DESKTOP BUT IS MOBILE FRIENDLY
+
+// MINIMUM MOBILE SIZE 360PX WIDE
+
+// ALL STYLING IS MOBILE FIRST THEN MEDIA QUERIES TARGET EACH NEXT SIZE UP WITH BREAKPOINTS AT: 480px 768px & 992px
+html,
+body {
+  background-color: rgb(227, 227, 227);
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#root {
+  flex: 1;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  padding: 0px;
+  margin: 0px;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.App {
+  min-height: 100vh;
+  text-align: center;
+  background-color: $bgpink1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.page {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0px;
+
+  h1 {
+    font-family: "Sophistica", cursive;
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.7rem;
+  }
+}
+
+// Scroll positioning
+#about,
+#projects,
+#tech {
+  scroll-margin-top: 127px;
+}
+
+// MEDIA QUERY FOR SCREENS 992PX OR LARGER
+@media only screen and (min-width: 992px) {
+  #about,
+  #projects,
+  #tech {
+    scroll-margin-top: 175px;
+    h1 {
+      font-size: 4rem;
+    }
+  }
+}

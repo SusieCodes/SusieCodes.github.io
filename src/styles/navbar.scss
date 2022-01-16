@@ -1,0 +1,115 @@
+// Color palette ***********
+$black: #242424;
+$white: #ffffff;
+$pink: #f4dcdf;
+$lightpink: #f8e6e9;
+$darkpink: #e7aeb6;
+$bgpink1: #f8f2f3;
+$bgpink2: #eadee0;
+// rainbow icon colors
+$red: #ff5964;
+$orange: #ff9b71;
+$yellow: #eed059;
+$green: #bce48b;
+$skyblue: #7ec2da;
+$lilac: #bd93bd;
+$rose: #efa8b8;
+// *************************
+
+/*
+React-Bootstrap navbar breakpoints 
+expand-sm = xs screens <576px
+expand-md = sm screens <768px
+expand-lg = md screens <992px
+expand-xl = lg screens <1200px
+*/
+
+nav.navbar {
+  background-color: $white !important;
+  align-self: center;
+  max-width: 1200px;
+  padding: 0 8px;
+  margin: 0;
+  box-shadow: 0 1px 1px 0 #dcdcdc;
+
+  .logo-holder {
+    width: 200px;
+    margin: 15px 5px;
+    cursor: pointer;
+    .logo {
+      width: 100%;
+      min-width: 150px;
+    }
+  }
+
+  .navbar-nav {
+    align-items: center;
+    padding: 1rem 0;
+    a.nav-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 130px; // this makes all 4 buttons same width
+      height: 130px;
+      background-image: url("../images/borderhexagon.png");
+      background-repeat: no-repeat;
+      background-size: 110px;
+      background-position: center;
+      background-color: $white;
+      transition: all 0.2s ease-in-out;
+      padding: 8px 0;
+      margin: 10px 0;
+      color: #242424;
+      font-size: 1.3rem;
+      font-weight: 500;
+      text-align: center;
+      transition-duration: 0.2s;
+      transition-timing-function: ease-in-out;
+    }
+    a.nav-link:hover {
+      color: $white;
+      background-image: url("../images/activehexagon.png");
+      transform: scale(1.1);
+    }
+  }
+
+  .navbar-toggler {
+    font-size: 1.8rem;
+    margin: 0px 12px;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
+
+// MEDIA QUERY FOR SCREENS 480PX OR LARGER
+@media only screen and (min-width: 480px) {
+}
+
+// MEDIA QUERY FOR SCREENS 768PX OR LARGER
+@media only screen and (min-width: 768px) {
+  .navbar-nav {
+    // border: 1px solid blue;
+    justify-content: center;
+    a.nav-link {
+      padding: 0;
+      margin: 0;
+      color: $black;
+      // border: 1px solid red;
+    }
+  }
+}
+
+// MEDIA QUERY FOR SCREENS 992PX OR LARGER
+@media only screen and (min-width: 992px) {
+  nav.navbar {
+    padding: 0px 25px 0px 20px;
+    .logo-holder {
+      width: 300px;
+      .logo {
+        width: 100%;
+      }
+    }
+  }
+}

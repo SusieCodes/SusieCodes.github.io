@@ -36,7 +36,6 @@ $rose: #efa8b8;
     align-content: center;
     padding: 0px 0px 30px;
     width: 300px;
-    border: 1px solid red;
     img {
       width: 100%;
       margin: auto auto;
@@ -48,7 +47,6 @@ $rose: #efa8b8;
     flex-direction: column;
     text-align: center;
     padding: 0px;
-    border: 1px solid red;
     h1 {
       padding: 0px;
       margin: 0px;
@@ -88,11 +86,11 @@ $rose: #efa8b8;
     justify-content: center;
     align-items: center;
     .box1 {
-      margin-right: 20px;
+      margin-right: 40px;
     }
     .box2 {
       padding: 0px;
-      margin-left: 20px;
+      margin-left: 40px;
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.30133e33.css",
+    "main.css": "/static/css/main.1ea081f2.css",
     "main.js": "/static/js/main.7297b56f.js",
     "static/media/cohort51mockup.png": "/static/media/cohort51mockup.237554d2b4b683d8c65d.png",
     "static/media/pinkbeanset.png": "/static/media/pinkbeanset.c71a8c100fa54648a3b4.png",
@@ -10,11 +10,11 @@
     "static/media/robinflip.svg": "/static/media/robinflip.eeb466b2b9ac764c478faeed57adcbe1.svg",
     "static/media/sophistica_3-webfont.woff": "/static/media/sophistica_3-webfont.52891659360e65cf3948.woff",
     "index.html": "/index.html",
-    "main.30133e33.css.map": "/static/css/main.30133e33.css.map",
+    "main.1ea081f2.css.map": "/static/css/main.1ea081f2.css.map",
     "main.7297b56f.js.map": "/static/js/main.7297b56f.js.map"
   },
   "entrypoints": [
-    "static/css/main.30133e33.css",
+    "static/css/main.1ea081f2.css",
     "static/js/main.7297b56f.js"
   ]
 }

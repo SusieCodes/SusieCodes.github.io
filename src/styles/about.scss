@@ -25,6 +25,7 @@ $rose: #efa8b8;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-content: center;
   align-items: center;
   flex-wrap: wrap;
   .box1 {
@@ -32,12 +33,13 @@ $rose: #efa8b8;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
     padding: 0px 0px 30px;
     width: 300px;
 
     img {
       width: 100%;
-      margin: 0px auto;
+      margin: auto auto;
     }
   }
   .box2 {
@@ -81,10 +83,10 @@ $rose: #efa8b8;
 // MEDIA QUERY FOR SCREENS 992PX OR LARGER
 @media only screen and (min-width: 992px) {
   .about {
-    padding: 210px 50px 0px;
+    padding: 210px 50px 10px;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     .box1 {
       margin-right: 20px;
     }

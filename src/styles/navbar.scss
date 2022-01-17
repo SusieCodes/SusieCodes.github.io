@@ -27,7 +27,7 @@ expand-xl = lg screens <1200px
 nav.navbar {
   background-color: $white !important;
   align-self: center;
-  max-width: 1200px;
+  max-width: 1440px;
   padding: 0 8px;
   margin: 0;
   box-shadow: 0 1px 1px 0 #dcdcdc;
@@ -50,25 +50,18 @@ nav.navbar {
       justify-content: center;
       align-items: center;
       width: 130px; // this makes all 4 buttons same width
-      height: 130px;
-      background-image: url("../images/borderhexagon.png");
-      background-repeat: no-repeat;
-      background-size: 110px;
-      background-position: center;
-      background-color: $white;
-      transition: all 0.2s ease-in-out;
+      background-color: $pink;
+      border-radius: 8px;
       padding: 8px 0;
-      margin: 10px 0;
+      margin: 8px 0;
       color: #242424;
       font-size: 1.3rem;
       font-weight: 500;
       text-align: center;
-      transition-duration: 0.2s;
-      transition-timing-function: ease-in-out;
+      transition: all 0.2s ease-in-out;
     }
     a.nav-link:hover {
       color: $white;
-      background-image: url("../images/activehexagon.png");
       transform: scale(1.1);
     }
   }
@@ -89,16 +82,6 @@ nav.navbar {
 
 // MEDIA QUERY FOR SCREENS 768PX OR LARGER
 @media only screen and (min-width: 768px) {
-  .navbar-nav {
-    // border: 1px solid blue;
-    justify-content: center;
-    a.nav-link {
-      padding: 0;
-      margin: 0;
-      color: $black;
-      // border: 1px solid red;
-    }
-  }
 }
 
 // MEDIA QUERY FOR SCREENS 992PX OR LARGER
@@ -109,6 +92,25 @@ nav.navbar {
       width: 300px;
       .logo {
         width: 100%;
+      }
+    }
+    .navbar-nav {
+      a.nav-link {
+        width: 130px;
+        height: 130px;
+        background-image: url("../images/borderhexagon.png");
+        background-repeat: no-repeat;
+        background-size: 110px;
+        background-position: center;
+        background-color: $white;
+        transition: all 0.2s ease-in-out;
+        padding: 8px 0;
+        margin: 10px 0;
+      }
+      a.nav-link:hover {
+        color: $white;
+        background-image: url("../images/activehexagon.png");
+        transform: scale(1.1);
       }
     }
   }

@@ -86,7 +86,7 @@ export const Projects = () => {
                   <div className="btn-light">Figma</div>
                 </a>
                 <a
-                  href="https://www.figma.com/proto/RjPnJ4xrvjgEBBPvwayI9M/C-51-Prototype---Desktop"
+                  href="https://www.figma.com/proto/AsTeIingVjOPrXGbYBjmdJ/Cohort-Website-Design?node-id=445%3A2847&scaling=min-zoom&page-id=440%3A669&starting-point-node-id=445%3A2847"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -98,22 +98,22 @@ export const Projects = () => {
 
           <div className="card">
             <div className="box1">
-              <a
+              {/* <a
                 href="https://susiecodes.github.io/"
                 target="_blank"
                 rel="noreferrer"
-              >
-                <img src={baker} alt="Baker's Bliss app" />
-              </a>
+              > */}
+              <img src={baker} alt="Baker's Bliss app" />
+              {/* </a> */}
             </div>
             <div className="box2">
-              <a
+              {/* <a
                 href="https://susiecodes.github.io/"
                 target="_blank"
                 rel="noreferrer"
-              >
-                <h2>Baker's Bliss</h2>
-              </a>
+              > */}
+              <h2>Baker's Bliss</h2>
+              {/* </a> */}
               <p>
                 Coming soon... check back for updates. I will post them as I go.
                 <br />

@@ -82,6 +82,11 @@ $rose: #efa8b8;
 @media only screen and (min-width: 992px) {
   .about {
     padding: 210px 50px 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .about {
     flex-direction: row;
     justify-content: center;
     align-items: center;

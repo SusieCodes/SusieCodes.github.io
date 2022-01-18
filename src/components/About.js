@@ -15,12 +15,12 @@ export const About = () => {
               In my time at Nashville Software School, I've been fortunate to
               learn not just programming languages, but more importantly, HOW to
               learn and how to use all the resources available. My teammates
-              describe me as a problem-solver, good communicator, curious,
-              creative, organized, independent, driven, and that I have a highly
-              tuned attention to detail (down to the pixel). There is something
-              deeply rewarding about bringing my visions to life. I've found
-              that development is an art-form using my keyboard instead of paint
-              &amp; brushes.{" "}
+              describe me as curious, creative, a problem-solver, organized,
+              driven, good communicator, and that I have a highly-tuned
+              attention to detail (down to the pixel). There is something deeply
+              rewarding about bringing my visions to life. I believe web
+              development is just another form of art using my keyboard in place
+              of paint &amp; brushes.{" "}
             </p>
             <p>
               In my job search, finding a good culture fit is at the top of my
@@ -28,7 +28,12 @@ export const About = () => {
               whole team is rowing in the same direction is vital. I would love
               to continue working in a full-time remote position since my home
               office has proven to be an ideal environment for productivity and
-              efficiency.
+              efficiency.{" "}
+            </p>
+
+            <p>
+              When I'm not coding, I enjoy baking, carpentry, and making things
+              look fabulous!
             </p>
           </div>
         </section>

@@ -1,9 +1,10 @@
 import React from "react";
 import lifedash from "../images/lifehackermockup.png";
 import cohort from "../images/cohort51mockup.png";
+import portfolio from "../images/portfoliomockup.png";
 import baker from "../images/bakersblissmockup.png";
 import modura from "../images/moduramockup.png";
-import portfolio from "../images/portfoliomockup.png";
+import foodie from "../images/foodiemockup.png";
 
 export const Projects = () => {
   return (
@@ -100,6 +101,62 @@ export const Projects = () => {
 
           <div className="card">
             <div className="box1">
+              <a
+                href="https://www.figma.com/file/h6VjaG4gGJmQEVdKKZbugE/Portfolio?node-id=0%3A1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={portfolio} alt="my portfolio" />
+              </a>
+            </div>
+            <div className="box2">
+              <a
+                href="https://www.figma.com/file/h6VjaG4gGJmQEVdKKZbugE/Portfolio?node-id=0%3A1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h2>My Portfolio</h2>
+              </a>
+              <p>
+                I created this portfolio using React and Figma. I applied all
+                the UX principles we learned in class to create the website you
+                are viewing now and wanted to share the process here as well.
+                Some of my original ideas evolved based on user research and
+                usability testing.
+              </p>
+
+              <p>
+                I created the Design Style Tile to use as guidance as I coded.
+              </p>
+
+              <div className="btn-wrapper">
+                <a
+                  href="https://github.com/SusieCodes/SusieCodes.github.io"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="btn-dark">Github</div>
+                </a>
+                <a
+                  href="https://www.figma.com/file/h6VjaG4gGJmQEVdKKZbugE/Portfolio?node-id=0%3A1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="btn-light">Figma</div>
+                </a>
+                <a
+                  href="https://www.figma.com/proto/h6VjaG4gGJmQEVdKKZbugE/Portfolio?node-id=38%3A1266&starting-point-node-id=38%3A1266"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="btn-dark">Prototype</div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="box1">
               {/* <a
                 href="https://susiecodes.github.io/"
                 target="_blank"
@@ -182,13 +239,6 @@ export const Projects = () => {
               </p>
 
               <div className="btn-wrapper">
-                {/* <a
-                  href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="btn-dark">Github</div>
-                </a> */}
                 <a
                   href="https://www.figma.com/file/tXVtEAuklrIjy0i9x8oJ25/Modura-Clothing-App?node-id=0%3A1"
                   target="_blank"
@@ -196,13 +246,6 @@ export const Projects = () => {
                 >
                   <div className="btn-light">Figma</div>
                 </a>
-                {/* <a
-                  href="https://www.figma.com/proto/AsTeIingVjOPrXGbYBjmdJ/Cohort-Website-Design?node-id=445%3A2847&scaling=min-zoom&page-id=440%3A669&starting-point-node-id=445%3A2847"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="btn-dark">Prototype</div>
-                </a> */}
               </div>
             </div>
           </div>
@@ -210,55 +253,36 @@ export const Projects = () => {
           <div className="card">
             <div className="box1">
               <a
-                href="https://www.figma.com/file/h6VjaG4gGJmQEVdKKZbugE/Portfolio?node-id=0%3A1"
+                href="https://www.figma.com/file/dxUfow1TAXKpdMkOpQVLT4/Foodie-App?node-id=0%3A1"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={portfolio} alt="my portfolio" />
+                <img src={foodie} alt="foodie app" />
               </a>
             </div>
             <div className="box2">
               <a
-                href="https://www.figma.com/file/h6VjaG4gGJmQEVdKKZbugE/Portfolio?node-id=0%3A1"
+                href="https://www.figma.com/file/dxUfow1TAXKpdMkOpQVLT4/Foodie-App?node-id=0%3A1"
                 target="_blank"
                 rel="noreferrer"
               >
-                <h2>My Portfolio</h2>
+                <h2>Foodie App</h2>
               </a>
               <p>
-                I created this portfolio using React and Figma. I applied all
-                the UX principles we learned in class to create the website you
-                are viewing now and wanted to share the process here as well.
-                Some of my original ideas evolved based on user research and
-                usability testing.
-              </p>
-
-              <p>
-                I created the Design Style Tile to use as guidance as I coded.
+                This was another project I worked on at Design Lab. We were
+                given the logo and tasked with creating 3 sample mobile screen
+                mockups for the app. I chose Sign In, Newsfeed, and User
+                Profile.
               </p>
 
               <div className="btn-wrapper">
-                {/* <a
-                  href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="btn-dark">Github</div>
-                </a> */}
                 <a
-                  href="https://www.figma.com/file/h6VjaG4gGJmQEVdKKZbugE/Portfolio?node-id=0%3A1"
+                  href="https://www.figma.com/file/dxUfow1TAXKpdMkOpQVLT4/Foodie-App?node-id=0%3A1"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <div className="btn-light">Figma</div>
                 </a>
-                {/* <a
-                  href="https://www.figma.com/proto/AsTeIingVjOPrXGbYBjmdJ/Cohort-Website-Design?node-id=445%3A2847&scaling=min-zoom&page-id=440%3A669&starting-point-node-id=445%3A2847"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="btn-dark">Prototype</div>
-                </a> */}
               </div>
             </div>
           </div>

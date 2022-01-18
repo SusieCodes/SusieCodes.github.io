@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.370b1435.css",
-    "main.js": "/static/js/main.7297b56f.js",
+    "main.css": "/static/css/main.04dc1ae4.css",
+    "main.js": "/static/js/main.6aef8cf3.js",
+    "static/media/moduramockup.png": "/static/media/moduramockup.70c8d35e7cdef6915026.png",
     "static/media/cohort51mockup.png": "/static/media/cohort51mockup.237554d2b4b683d8c65d.png",
     "static/media/pinkbeanset.png": "/static/media/pinkbeanset.c71a8c100fa54648a3b4.png",
     "static/media/SusieStanleyLogo.svg": "/static/media/SusieStanleyLogo.edff174e4ceebe8cca9b9bd92dd1d0ea.svg",
@@ -10,11 +11,11 @@
     "static/media/robinflip.svg": "/static/media/robinflip.eeb466b2b9ac764c478faeed57adcbe1.svg",
     "static/media/sophistica_3-webfont.woff": "/static/media/sophistica_3-webfont.52891659360e65cf3948.woff",
     "index.html": "/index.html",
-    "main.370b1435.css.map": "/static/css/main.370b1435.css.map",
-    "main.7297b56f.js.map": "/static/js/main.7297b56f.js.map"
+    "main.04dc1ae4.css.map": "/static/css/main.04dc1ae4.css.map",
+    "main.6aef8cf3.js.map": "/static/js/main.6aef8cf3.js.map"
   },
   "entrypoints": [
-    "static/css/main.370b1435.css",
-    "static/js/main.7297b56f.js"
+    "static/css/main.04dc1ae4.css",
+    "static/js/main.6aef8cf3.js"
   ]
 }

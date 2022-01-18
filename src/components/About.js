@@ -16,11 +16,11 @@ export const About = () => {
               learn not just programming languages, but more importantly, HOW to
               learn and how to use all the resources available. My teammates
               describe me as curious, creative, a problem-solver, organized,
-              driven, good communicator, and that I have a highly-tuned
-              attention to detail (down to the pixel). There is something deeply
-              rewarding about bringing my visions to life. I believe web
-              development is just another form of art using my keyboard in place
-              of paint &amp; brushes.{" "}
+              driven, good communicator, and that my super-power is having a
+              highly-tuned attention to detail (down to the pixel). There is
+              something deeply rewarding about bringing my visions to life. I
+              believe web development is just another form of art using my
+              keyboard in place of paint &amp; brushes.{" "}
             </p>
             <p>
               In my job search, finding a good culture fit is at the top of my

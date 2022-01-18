@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.04dc1ae4.css",
-    "main.js": "/static/js/main.c273a970.js",
-    "static/media/moduramockup.png": "/static/media/moduramockup.70c8d35e7cdef6915026.png",
-    "static/media/cohort51mockup.png": "/static/media/cohort51mockup.237554d2b4b683d8c65d.png",
+    "main.js": "/static/js/main.e65a60e4.js",
+    "static/media/foodiemockup.png": "/static/media/foodiemockup.2575072696fee8a310b8.png",
+    "static/media/moduramockup.png": "/static/media/moduramockup.7fb9dd5a3477142fa776.png",
+    "static/media/cohort51mockup.png": "/static/media/cohort51mockup.16eb307f83d2a753009c.png",
     "static/media/pinkbeanset.png": "/static/media/pinkbeanset.c71a8c100fa54648a3b4.png",
     "static/media/SusieStanleyLogo.svg": "/static/media/SusieStanleyLogo.edff174e4ceebe8cca9b9bd92dd1d0ea.svg",
-    "static/media/lifehackermockup.png": "/static/media/lifehackermockup.286713a404f351d6670e.png",
-    "static/media/bakersblissmockup.png": "/static/media/bakersblissmockup.d8cfed227c12b6f9ce1e.png",
+    "static/media/lifehackermockup.png": "/static/media/lifehackermockup.7dc3abf95aa2e83e167e.png",
+    "static/media/portfoliomockup.png": "/static/media/portfoliomockup.73ce626d969f7b8385f4.png",
+    "static/media/bakersblissmockup.png": "/static/media/bakersblissmockup.8b9e54616c478372ee92.png",
     "static/media/robinflip.svg": "/static/media/robinflip.eeb466b2b9ac764c478faeed57adcbe1.svg",
     "static/media/sophistica_3-webfont.woff": "/static/media/sophistica_3-webfont.52891659360e65cf3948.woff",
-    "static/media/portfoliomockup.png": "/static/media/portfoliomockup.7aa9a35a7b2ea3c4f107.png",
     "index.html": "/index.html",
     "main.04dc1ae4.css.map": "/static/css/main.04dc1ae4.css.map",
-    "main.c273a970.js.map": "/static/js/main.c273a970.js.map"
+    "main.e65a60e4.js.map": "/static/js/main.e65a60e4.js.map"
   },
   "entrypoints": [
     "static/css/main.04dc1ae4.css",
-    "static/js/main.c273a970.js"
+    "static/js/main.e65a60e4.js"
   ]
 }

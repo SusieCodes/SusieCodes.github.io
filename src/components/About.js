@@ -52,9 +52,9 @@ export const About = () => {
               {/* <div className="interest-text"> */}
               <p>
                 Ziggy is my toy poodle. He is my constant companion who is
-                loyal, cuddly, and has never met a stranger. He has learned alot
-                about coding this year and aspires to be the CEO of a Fortune
-                500 one day.
+                loyal, cuddly, and has never met a stranger. He has learned a
+                lot about coding this year and aspires to be the CEO of a
+                Fortune 500 one day.
               </p>
               {/* </div> */}
             </div>
@@ -94,9 +94,10 @@ export const About = () => {
               <img src={cupcake} alt="cupcake" />
               {/* <div className="interest-text"> */}
               <p>
-                I ❤ Baking! I love to combine my love of baking with my love of
-                art. Presentation can take it to the next level. I appreciate
-                any opportunity to make desserts for the people in my life.
+                I ❤ Baking! I love to combine my obsession for baking with my
+                affinity for art. Good presentation can take anything to the
+                next level. I appreciate any opportunity to make desserts for
+                the people in my life.
               </p>
             </div>
             {/* </div> */}

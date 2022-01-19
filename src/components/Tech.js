@@ -37,7 +37,7 @@ export const Tech = () => {
           <h1>Technologies</h1>
           <div className="skills-wrapper">
             <div className="skills">
-              <div className="skills-title">Development Skills</div>
+              <div className="skills-title">✦ Development Skills ✦</div>
               <div className="skills-icons">
                 <button className="icon red">
                   <SiHtml5 />
@@ -112,7 +112,7 @@ export const Tech = () => {
               </div>
             </div>
             <div className="skills">
-              <div className="skills-title">UI/UX Skills</div>
+              <div className="skills-title">✦ UI/UX Skills ✦</div>
               <div className="skills-icons">
                 <button className="icon red">
                   <SiFigma />

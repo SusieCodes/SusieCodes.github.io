@@ -20,8 +20,8 @@ $rose: #efa8b8;
   background-color: $bgpink1;
 }
 
-.about {
-  padding: 130px 10px 0px;
+.about1 {
+  padding: 130px 10px 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -53,17 +53,48 @@ $rose: #efa8b8;
     }
 
     p {
-      // width: 100%;
-      // font-size: 1.5rem;
-      // line-height: 2rem;
       text-align: justify;
+    }
+  }
+}
+
+.about2 {
+  padding: 10px 0px;
+  background-image: url("../images/aboutbg.svg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 37px 37px;
+  border-radius: 20px;
+  .about-interests {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    .box1 {
+      display: none;
+    }
+    .box2 {
+      padding: 0px 20px;
+      margin: 0px;
+      img {
+        height: 50px;
+        margin-bottom: -28px;
+      }
+      p {
+        padding: 50px 20px 30px;
+        background-color: $white;
+        border-radius: 10px;
+      }
     }
   }
 }
 
 // MEDIA QUERY FOR SCREENS 480PX OR LARGER
 @media only screen and (min-width: 480px) {
-  .about {
+  .about1 {
     padding-top: 140px;
     .box1 {
       width: 375px;
@@ -76,17 +107,80 @@ $rose: #efa8b8;
 
 // MEDIA QUERY FOR SCREENS 768PX OR LARGER
 @media only screen and (min-width: 768px) {
+  .about2 {
+    border-radius: 20px;
+    padding: 20px 0px;
+    .about-interests {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      padding: 0px 20px;
+      margin: 20px 0px;
+      // border: 1px solid blue;
+      .box1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        // width: 250px;
+        height: 250px;
+        padding: 0px;
+        margin: 0px 20px;
+        // border: 1px solid red;
+        img {
+          width: 100%;
+        }
+      }
+      .box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        max-width: 750px;
+        flex: 1;
+        padding: 0px 20px;
+        // border: 1px solid red;
+        img {
+          z-index: 10;
+          height: 50px;
+          margin-bottom: -28px;
+        }
+        p {
+          padding: 50px 20px 30px;
+          background-color: $white;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
 }
 
 // MEDIA QUERY FOR SCREENS 992PX OR LARGER
 @media only screen and (min-width: 992px) {
-  .about {
-    padding: 210px 50px 10px;
+  .about1 {
+    padding: 210px 50px 30px;
+  }
+  .about2 {
+    padding: 20px 30px;
+    .about-interests {
+      margin: 50px 0px;
+      .box1 {
+        height: 300px;
+      }
+      .box2 {
+        p {
+          padding: 50px 40px 30px;
+        }
+      }
+    }
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .about {
+  .about1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -96,6 +190,22 @@ $rose: #efa8b8;
     .box2 {
       padding: 0px;
       margin-left: 40px;
+    }
+  }
+  .about2 {
+    padding: 40px 40px;
+    .about-interests {
+      padding: 20px 0px;
+      justify-content: space-evenly;
+      .box1 {
+        height: 350px;
+      }
+      .box2 {
+        max-width: 800px;
+        p {
+          padding: 70px 50px 50px;
+        }
+      }
     }
   }
 }

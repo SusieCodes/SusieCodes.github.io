@@ -104,12 +104,15 @@ $rose: #efa8b8;
       padding: 0px 10px;
     }
   }
+  .about2 {
+    padding: 20px 20px;
+  }
 }
 
 // MEDIA QUERY FOR SCREENS 768PX OR LARGER
 @media only screen and (min-width: 768px) {
   .about2 {
-    padding: 20px 0px;
+    // padding: 20px 0px;
     .about-interests {
       display: flex;
       flex-direction: row;
@@ -163,7 +166,7 @@ $rose: #efa8b8;
     padding: 210px 50px 20px;
   }
   .about2 {
-    padding: 10px 30px;
+    padding: 20px 30px;
     .about-interests {
       margin: 30px 0px;
       .box1 {

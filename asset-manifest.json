@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1a5eafd.css",
-    "main.js": "/static/js/main.f13910e1.js",
-    "static/media/interest_hiking.png": "/static/media/interest_hiking.6e5624abeb6a0aecf8a7.png",
-    "static/media/interest_ziggy.png": "/static/media/interest_ziggy.9ab6068f4dd9bfe3245f.png",
-    "static/media/interest_shed.png": "/static/media/interest_shed.8d6b9b3ab6fe01b057b7.png",
-    "static/media/interest_baking.png": "/static/media/interest_baking.51698e7d5dec7b2d22d3.png",
-    "static/media/interest_travel.png": "/static/media/interest_travel.b2287eca1a6e4b39eb97.png",
+    "main.css": "/static/css/main.061f8701.css",
+    "main.js": "/static/js/main.1444703f.js",
+    "static/media/interest_hiking.png": "/static/media/interest_hiking.a6b42c9e91eb1e08b039.png",
+    "static/media/interest_ziggy.png": "/static/media/interest_ziggy.492ca29543cc5c15b025.png",
+    "static/media/interest_shed.png": "/static/media/interest_shed.e9b7f20b7482e04d8a0a.png",
+    "static/media/interest_baking.png": "/static/media/interest_baking.d26ec1f1b6eb100d94ac.png",
+    "static/media/interest_travel.png": "/static/media/interest_travel.49d100598ad0491df554.png",
     "static/media/foodiemockup.png": "/static/media/foodiemockup.2575072696fee8a310b8.png",
     "static/media/moduramockup.png": "/static/media/moduramockup.7fb9dd5a3477142fa776.png",
     "static/media/cohort51mockup.png": "/static/media/cohort51mockup.16eb307f83d2a753009c.png",
@@ -24,11 +24,11 @@
     "static/media/aboutbg.svg": "/static/media/aboutbg.213d21a34937b1937053.svg",
     "static/media/icontoolbox.svg": "/static/media/icontoolbox.c4f9453e77d952767972951424cf5605.svg",
     "index.html": "/index.html",
-    "main.a1a5eafd.css.map": "/static/css/main.a1a5eafd.css.map",
-    "main.f13910e1.js.map": "/static/js/main.f13910e1.js.map"
+    "main.061f8701.css.map": "/static/css/main.061f8701.css.map",
+    "main.1444703f.js.map": "/static/js/main.1444703f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1a5eafd.css",
-    "static/js/main.f13910e1.js"
+    "static/css/main.061f8701.css",
+    "static/js/main.1444703f.js"
   ]
 }

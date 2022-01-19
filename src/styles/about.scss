@@ -59,12 +59,12 @@ $rose: #efa8b8;
 }
 
 .about2 {
+  width: 100%;
   padding: 10px 0px;
   background-image: url("../images/aboutbg.svg");
   background-position: center;
   background-repeat: repeat;
   background-size: 37px 37px;
-  border-radius: 20px;
   .about-interests {
     display: flex;
     flex-direction: row;
@@ -87,6 +87,7 @@ $rose: #efa8b8;
         padding: 50px 20px 30px;
         background-color: $white;
         border-radius: 10px;
+        box-shadow: 5px 5px 10px 0px #ababab;
       }
     }
   }
@@ -108,7 +109,6 @@ $rose: #efa8b8;
 // MEDIA QUERY FOR SCREENS 768PX OR LARGER
 @media only screen and (min-width: 768px) {
   .about2 {
-    border-radius: 20px;
     padding: 20px 0px;
     .about-interests {
       display: flex;
@@ -118,7 +118,6 @@ $rose: #efa8b8;
       flex-wrap: nowrap;
       padding: 0px 20px;
       margin: 20px 0px;
-      // border: 1px solid blue;
       .box1 {
         display: flex;
         flex-direction: row;
@@ -161,10 +160,10 @@ $rose: #efa8b8;
 // MEDIA QUERY FOR SCREENS 992PX OR LARGER
 @media only screen and (min-width: 992px) {
   .about1 {
-    padding: 210px 50px 30px;
+    padding: 210px 50px 20px;
   }
   .about2 {
-    padding: 20px 30px;
+    padding: 10px 30px;
     .about-interests {
       margin: 50px 0px;
       .box1 {
@@ -193,7 +192,7 @@ $rose: #efa8b8;
     }
   }
   .about2 {
-    padding: 40px 40px;
+    padding: 20px 40px;
     .about-interests {
       padding: 20px 0px;
       justify-content: space-evenly;

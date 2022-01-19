@@ -42,84 +42,74 @@ export const About = () => {
             </p>
           </div>
         </section>
-        <section className="about2">
-          <section className="about-interests">
-            <div className="box1">
-              <img src={ziggy} alt="Ziggy" />
-            </div>
-            <div className="box2">
-              <img src={poodle} alt="poodle" />
-              {/* <div className="interest-text"> */}
-              <p>
-                Ziggy is my toy poodle. He is my constant companion who is
-                loyal, cuddly, and has never met a stranger. He has learned a
-                lot about coding this year and aspires to be the CEO of a
-                Fortune 500 one day.
-              </p>
-              {/* </div> */}
-            </div>
-          </section>
-          <section className="about-interests">
-            <div className="box2">
-              <img src={hiker} alt="hiker" />
-              {/* <div className="interest-text"> */}
-              <p>
-                Hiking trails are my solace. Life's challenges seem to melt away
-                under the branches of tall majestic trees. On sunny days in the
-                spring and summer I can often be found at Radnor Lake.
-              </p>
-            </div>
-            {/* </div> */}
-            <div className="box1">
-              <img src={hiking} alt="hiking" />
-            </div>
-          </section>
-          <section className="about-interests">
-            <div className="box1">
-              <img src={shed} alt="shed" />
-            </div>
-            <div className="box2">
-              <img src={toolbox} alt="toolbox" />
-              {/* <div className="interest-text"> */}
-              <p>
-                I built a 10X10 shed in the summer of 2013 by watching YouTube
-                videos. Framing, rafters, ridge beams, shingles, doors, and
-                windows were all tackled with sweat and determination.{" "}
-              </p>
-              {/* </div> */}
-            </div>
-          </section>
-          <section className="about-interests">
-            <div className="box2">
-              <img src={cupcake} alt="cupcake" />
-              {/* <div className="interest-text"> */}
-              <p>
-                I ❤ Baking! I love to combine my obsession for baking with my
-                affinity for art. Good presentation can take anything to the
-                next level. I appreciate any opportunity to make desserts for
-                the people in my life.
-              </p>
-            </div>
-            {/* </div> */}
-            <div className="box1">
-              <img src={baking} alt="cupcakes" />
-            </div>
-          </section>
-          <section className="about-interests">
-            <div className="box1">
-              <img src={travel} alt="Egyptian road signs" />
-            </div>
-            <div className="box2">
-              <img src={plane} alt="airplane" />
-              {/* <div className="interest-text"> */}
-              <p>
-                I live for traveling! I was born in Canada and Hungarian was my
-                first language. Some of the more memorable vacation spots I've
-                visited are Egypt, Peru, Hungary, and Mexico.
-              </p>
-              {/* </div> */}
-            </div>
-          </section>
+      </div>
+      <div className="about2">
+        <section className="about-interests">
+          <div className="box1">
+            <img src={ziggy} alt="Ziggy" />
+          </div>
+          <div className="box2">
+            <img src={poodle} alt="poodle" />
+            <p>
+              Ziggy is my toy poodle. He is my constant companion who is loyal,
+              cuddly, and has never met a stranger. He has learned a lot about
+              coding this year and aspires to be the CEO of a Fortune 500 one
+              day.
+            </p>
+          </div>
+        </section>
+        <section className="about-interests">
+          <div className="box2">
+            <img src={hiker} alt="hiker" />
+            <p>
+              Hiking trails are my solace. Life's challenges seem to melt away
+              under the branches of tall majestic trees. On sunny days in the
+              spring and summer I can often be found at Radnor Lake.
+            </p>
+          </div>
+          <div className="box1">
+            <img src={hiking} alt="hiking" />
+          </div>
+        </section>
+        <section className="about-interests">
+          <div className="box1">
+            <img src={shed} alt="shed" />
+          </div>
+          <div className="box2">
+            <img src={toolbox} alt="toolbox" />
+            <p>
+              I built a 10X10 shed in the summer of 2013 by watching YouTube
+              videos. Framing, rafters, ridge beams, shingles, fascia, soffits,
+              doors, and windows were all tackled with sweat and determination.
+            </p>
+          </div>
+        </section>
+        <section className="about-interests">
+          <div className="box2">
+            <img src={cupcake} alt="cupcake" />
+            <p>
+              I ❤ Baking! I really enjoy combining my obsession for baking with
+              my affinity for art. Good presentation can take anything to the
+              next level. I appreciate any opportunity to make desserts for the
+              people in my life.
+            </p>
+          </div>
+          <div className="box1">
+            <img src={baking} alt="cupcakes" />
+          </div>
+        </section>
+        <section className="about-interests">
+          <div className="box1">
+            <img src={travel} alt="Egyptian road signs" />
+          </div>
+          <div className="box2">
+            <img src={plane} alt="airplane" />
+            <p>
+              I live for traveling! I was born in Canada and Hungarian was my
+              first language. Some of the more memorable vacation spots I've
+              visited are Egypt, Peru, Hungary, and Mexico.
+            </p>
+          </div>
         </section>
       </div>
     </>

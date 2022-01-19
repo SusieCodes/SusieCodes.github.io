@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.260a38c7.css",
-    "main.js": "/static/js/main.4f83f3c5.js",
+    "main.css": "/static/css/main.461b1a06.css",
+    "main.js": "/static/js/main.41b164c7.js",
     "static/media/interest_hiking.png": "/static/media/interest_hiking.a6b42c9e91eb1e08b039.png",
     "static/media/interest_ziggy.png": "/static/media/interest_ziggy.492ca29543cc5c15b025.png",
     "static/media/interest_shed.png": "/static/media/interest_shed.e9b7f20b7482e04d8a0a.png",
     "static/media/interest_baking.png": "/static/media/interest_baking.d26ec1f1b6eb100d94ac.png",
     "static/media/interest_travel.png": "/static/media/interest_travel.49d100598ad0491df554.png",
-    "static/media/foodiemockup.png": "/static/media/foodiemockup.2575072696fee8a310b8.png",
     "static/media/moduramockup.png": "/static/media/moduramockup.7fb9dd5a3477142fa776.png",
+    "static/media/foodiemockup.png": "/static/media/foodiemockup.de0eadb4d9ec04370504.png",
     "static/media/cohort51mockup.png": "/static/media/cohort51mockup.16eb307f83d2a753009c.png",
     "static/media/pinkbeanset.png": "/static/media/pinkbeanset.c71a8c100fa54648a3b4.png",
     "static/media/SusieStanleyLogo.svg": "/static/media/SusieStanleyLogo.edff174e4ceebe8cca9b9bd92dd1d0ea.svg",
@@ -24,11 +24,11 @@
     "static/media/icontravel.svg": "/static/media/icontravel.2d5604169607df5402ba48e792b239ad.svg",
     "static/media/aboutbg.svg": "/static/media/aboutbg.213d21a34937b1937053.svg",
     "static/media/icontoolbox.svg": "/static/media/icontoolbox.c4f9453e77d952767972951424cf5605.svg",
-    "main.260a38c7.css.map": "/static/css/main.260a38c7.css.map",
-    "main.4f83f3c5.js.map": "/static/js/main.4f83f3c5.js.map"
+    "main.461b1a06.css.map": "/static/css/main.461b1a06.css.map",
+    "main.41b164c7.js.map": "/static/js/main.41b164c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.260a38c7.css",
-    "static/js/main.4f83f3c5.js"
+    "static/css/main.461b1a06.css",
+    "static/js/main.41b164c7.js"
   ]
 }

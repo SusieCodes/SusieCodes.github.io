@@ -23,7 +23,7 @@ export const About = () => {
             <h1>About &nbsp; Me</h1>
             <p>
               In my time at Nashville Software School, I've been fortunate to
-              learn not just programming languages, but more importantly, HOW to
+              learn not only programming languages, but more importantly, HOW to
               learn and how to use all the resources available. My teammates
               describe me as curious, creative, a problem-solver, organized,
               driven, good communicator, and that my super-power is having a
@@ -80,7 +80,7 @@ export const About = () => {
             <p>
               I built a 10X10 shed in the summer of 2013 by watching YouTube
               videos. Framing, rafters, ridge beams, shingles, fascia, soffits,
-              doors, and windows were all tackled with sweat and determination.
+              door, and window were all tackled with sweat and determination.
             </p>
           </div>
         </section>

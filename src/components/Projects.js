@@ -270,8 +270,8 @@ export const Projects = () => {
               </a>
               <p>
                 This was another project I worked on at Design Lab. We were
-                given the logo and tasked with creating 3 sample mobile screen
-                mockups for the app. I chose Sign In, Newsfeed, and User
+                given the wordmark logo and tasked with creating 3 sample mobile
+                screen mockups for the app. I chose Sign In, Newsfeed, and User
                 Profile.
               </p>
 

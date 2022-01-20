@@ -145,7 +145,7 @@ export const Projects = () => {
                   <div className="btn-light">Figma</div>
                 </a>
                 <a
-                  href="https://www.figma.com/proto/h6VjaG4gGJmQEVdKKZbugE/Portfolio?node-id=38%3A1266&starting-point-node-id=38%3A1266"
+                  href="https://www.figma.com/proto/h6VjaG4gGJmQEVdKKZbugE/Portfolio?node-id=38%3A1266&starting-point-node-id=38%3A1266&scaling=scale-down"
                   target="_blank"
                   rel="noreferrer"
                 >

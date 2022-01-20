@@ -178,31 +178,32 @@ export const Projects = () => {
                 project progresses.
                 <br />
                 <br />I am currently working on my second capstone for the
-                full-time web developer program at NSS. I'm creating this app
-                using React (HTML, CSS/SCSS, and Javascript)
+                full-time web developer program at NSS which will be a custom
+                baking recipe app. I'll be using React (HTML, CSS/SCSS, and
+                Javascript)
               </p>
 
               <div className="btn-wrapper">
-                {/* <a
-                  href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io"
+                <a
+                  href="https://github.com/SusieCodes/bakersbliss"
                   target="_blank"
                   rel="noreferrer"
-                > */}
-                <div className="btn-dark">Github</div>
-                {/* </a> */}
-                {/* <a
-                  href="https://www.figma.com/file/AsTeIingVjOPrXGbYBjmdJ/Cohort-Website-Design?node-id=0%3A1"
+                >
+                  <div className="btn-dark">Github</div>
+                </a>
+                <a
+                  href="https://www.figma.com/file/KZnXHz4ENAnByJ0ea8ykOu/bakersbliss?node-id=0%3A1"
                   target="_blank"
                   rel="noreferrer"
-                > */}
-                <div className="btn-light">Figma</div>
-                {/* </a> */}
+                >
+                  <div className="btn-light">Figma</div>
+                </a>
                 {/* <a
                   href="https://www.figma.com/proto/RjPnJ4xrvjgEBBPvwayI9M/C-51-Prototype---Desktop"
                   target="_blank"
                   rel="noreferrer"
                 > */}
-                <div className="btn-dark">Prototype</div>
+                {/* <div className="btn-dark">Prototype</div> */}
                 {/* </a> */}
               </div>
             </div>

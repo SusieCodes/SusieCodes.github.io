@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a37f1e81.css",
-    "main.js": "/static/js/main.23adde1a.js",
+    "main.js": "/static/js/main.0a4cfe18.js",
     "static/media/interest_hiking.png": "/static/media/interest_hiking.a6b42c9e91eb1e08b039.png",
     "static/media/interest_ziggy.png": "/static/media/interest_ziggy.492ca29543cc5c15b025.png",
     "static/media/interest_shed.png": "/static/media/interest_shed.e9b7f20b7482e04d8a0a.png",
@@ -14,7 +14,7 @@
     "static/media/SusieStanleyLogo.svg": "/static/media/SusieStanleyLogo.edff174e4ceebe8cca9b9bd92dd1d0ea.svg",
     "static/media/lifehackermockup.png": "/static/media/lifehackermockup.7dc3abf95aa2e83e167e.png",
     "static/media/portfoliomockup.png": "/static/media/portfoliomockup.73ce626d969f7b8385f4.png",
-    "static/media/bakersblissmockup.png": "/static/media/bakersblissmockup.363f0f7cf3ded3f95a3a.png",
+    "static/media/bakersblissmockup.png": "/static/media/bakersblissmockup.a335936943df3eb5eca9.png",
     "static/media/robinflip.svg": "/static/media/robinflip.eeb466b2b9ac764c478faeed57adcbe1.svg",
     "static/media/sophistica_3-webfont.woff": "/static/media/sophistica_3-webfont.52891659360e65cf3948.woff",
     "static/media/iconhiking.svg": "/static/media/iconhiking.a5d8792b4c6aa6d5c3510fe4b31291ec.svg",
@@ -25,10 +25,10 @@
     "static/media/aboutbg.svg": "/static/media/aboutbg.213d21a34937b1937053.svg",
     "static/media/icontoolbox.svg": "/static/media/icontoolbox.c4f9453e77d952767972951424cf5605.svg",
     "main.a37f1e81.css.map": "/static/css/main.a37f1e81.css.map",
-    "main.23adde1a.js.map": "/static/js/main.23adde1a.js.map"
+    "main.0a4cfe18.js.map": "/static/js/main.0a4cfe18.js.map"
   },
   "entrypoints": [
     "static/css/main.a37f1e81.css",
-    "static/js/main.23adde1a.js"
+    "static/js/main.0a4cfe18.js"
   ]
 }

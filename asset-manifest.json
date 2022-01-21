@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.40ad2d4e.css",
+    "main.css": "/static/css/main.9ece435e.css",
     "main.js": "/static/js/main.98da7911.js",
     "static/media/interest_hiking.png": "/static/media/interest_hiking.a6b42c9e91eb1e08b039.png",
     "static/media/interest_ziggy.png": "/static/media/interest_ziggy.492ca29543cc5c15b025.png",
@@ -24,11 +24,11 @@
     "static/media/icontravel.svg": "/static/media/icontravel.2d5604169607df5402ba48e792b239ad.svg",
     "static/media/aboutbg.svg": "/static/media/aboutbg.213d21a34937b1937053.svg",
     "static/media/icontoolbox.svg": "/static/media/icontoolbox.c4f9453e77d952767972951424cf5605.svg",
-    "main.40ad2d4e.css.map": "/static/css/main.40ad2d4e.css.map",
+    "main.9ece435e.css.map": "/static/css/main.9ece435e.css.map",
     "main.98da7911.js.map": "/static/js/main.98da7911.js.map"
   },
   "entrypoints": [
-    "static/css/main.40ad2d4e.css",
+    "static/css/main.9ece435e.css",
     "static/js/main.98da7911.js"
   ]
 }

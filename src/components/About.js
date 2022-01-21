@@ -57,12 +57,7 @@ export const About = () => {
             </div>
             <p>
               ...and that my super-power is always being able to see the tiniest
-              details with pixel precision.
-            </p>
-            <p>
-              There is something deeply rewarding about bringing my visions to
-              life. I believe web development is just another form of art using
-              my keyboard in place of paint &amp; brushes.{" "}
+              details with <span className="pixel">pixel precision</span>.
             </p>
             <p>
               In my job search, finding a good culture fit is at the top of my

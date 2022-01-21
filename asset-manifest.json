@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a37f1e81.css",
-    "main.js": "/static/js/main.0a4cfe18.js",
+    "main.css": "/static/css/main.d0ba1e48.css",
+    "main.js": "/static/js/main.06a91521.js",
     "static/media/interest_hiking.png": "/static/media/interest_hiking.a6b42c9e91eb1e08b039.png",
     "static/media/interest_ziggy.png": "/static/media/interest_ziggy.492ca29543cc5c15b025.png",
     "static/media/interest_shed.png": "/static/media/interest_shed.e9b7f20b7482e04d8a0a.png",
@@ -24,11 +24,11 @@
     "static/media/icontravel.svg": "/static/media/icontravel.2d5604169607df5402ba48e792b239ad.svg",
     "static/media/aboutbg.svg": "/static/media/aboutbg.213d21a34937b1937053.svg",
     "static/media/icontoolbox.svg": "/static/media/icontoolbox.c4f9453e77d952767972951424cf5605.svg",
-    "main.a37f1e81.css.map": "/static/css/main.a37f1e81.css.map",
-    "main.0a4cfe18.js.map": "/static/js/main.0a4cfe18.js.map"
+    "main.d0ba1e48.css.map": "/static/css/main.d0ba1e48.css.map",
+    "main.06a91521.js.map": "/static/js/main.06a91521.js.map"
   },
   "entrypoints": [
-    "static/css/main.a37f1e81.css",
-    "static/js/main.0a4cfe18.js"
+    "static/css/main.d0ba1e48.css",
+    "static/js/main.06a91521.js"
   ]
 }

@@ -24,13 +24,45 @@ export const About = () => {
             <p>
               In my time at Nashville Software School, I've been fortunate to
               learn not only programming languages, but more importantly, HOW to
-              learn and how to use all the resources available. My teammates
-              describe me as curious, creative, a problem-solver, organized,
-              driven, good communicator, and that my super-power is having a
-              highly-tuned attention to detail (down to the pixel). There is
-              something deeply rewarding about bringing my visions to life. I
-              believe web development is just another form of art using my
-              keyboard in place of paint &amp; brushes.{" "}
+              learn &amp; how to use all the resources available. My teammates
+              describe me as:{" "}
+            </p>
+            <div className="bullets">
+              <div className="list">
+                <ul>
+                  <li>
+                    <span>driven</span>
+                  </li>
+                  <li>
+                    <span>curious</span>
+                  </li>
+                  <li>
+                    <span>creative</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="list">
+                <ul>
+                  <li>
+                    <span>organized</span>
+                  </li>
+                  <li>
+                    <span>problem-solver</span>
+                  </li>
+                  <li>
+                    <span>good communicator</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              ...and that my super-power is always being able to see the tiniest
+              details with pixel precision.
+            </p>
+            <p>
+              There is something deeply rewarding about bringing my visions to
+              life. I believe web development is just another form of art using
+              my keyboard in place of paint &amp; brushes.{" "}
             </p>
             <p>
               In my job search, finding a good culture fit is at the top of my

@@ -21,7 +21,7 @@ $rose: #efa8b8;
 }
 
 .about1 {
-  padding: 130px 10px 20px;
+  padding: 130px 10px 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -45,9 +45,11 @@ $rose: #efa8b8;
     flex: 1;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-content: left;
     padding: 0px;
+
     h1 {
+      text-align: center;
       padding: 0px;
       margin: 0px;
     }
@@ -55,12 +57,35 @@ $rose: #efa8b8;
     p {
       text-align: justify;
     }
+
+    .bullets {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      margin: 0px 0px 16px;
+      .list {
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+        ul {
+          margin: 0px;
+          li {
+            margin: 5px 0px;
+            span {
+              background-color: $pink;
+              padding: 0px 5px;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
 .about2 {
   width: 100%;
-  padding: 10px 0px;
+  padding: 30px 0px 20px;
   background-image: url("../images/aboutbg.svg");
   background-position: center;
   background-repeat: repeat;
@@ -111,8 +136,28 @@ $rose: #efa8b8;
 
 // MEDIA QUERY FOR SCREENS 768PX OR LARGER
 @media only screen and (min-width: 768px) {
+  .about1 {
+    .box2 {
+      .bullets {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        // border: 1px solid blue;
+        .list {
+          // margin-left: 50px;
+          // border: 1px solid red;
+          ul {
+            margin-bottom: 0px;
+            li {
+              // text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
   .about2 {
-    // padding: 20px 0px;
     .about-interests {
       display: flex;
       flex-direction: row;
@@ -127,11 +172,9 @@ $rose: #efa8b8;
         justify-content: center;
         align-content: center;
         flex-wrap: nowrap;
-        // width: 250px;
         height: 250px;
         padding: 0px;
         margin: 0px 20px;
-        // border: 1px solid red;
         img {
           width: 100%;
         }
@@ -144,7 +187,6 @@ $rose: #efa8b8;
         max-width: 750px;
         flex: 1;
         padding: 0px 20px;
-        // border: 1px solid red;
         img {
           z-index: 10;
           height: 50px;
@@ -163,7 +205,7 @@ $rose: #efa8b8;
 // MEDIA QUERY FOR SCREENS 992PX OR LARGER
 @media only screen and (min-width: 992px) {
   .about1 {
-    padding: 210px 50px 20px;
+    padding: 210px 50px 10px;
   }
   .about2 {
     padding: 20px 30px;

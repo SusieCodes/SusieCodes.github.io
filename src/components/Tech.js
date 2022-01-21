@@ -1,22 +1,24 @@
 import React from "react";
-import { SiHtml5 } from "react-icons/si"; // html
-import { SiCss3 } from "react-icons/si"; // css
-import { SiJavascript } from "react-icons/si"; // javascript
+import {
+  SiHtml5, // html
+  SiCss3, // css
+  SiJavascript, // javascript
+  SiReact, // react
+  SiVisualstudiocode, // vscode
+  SiJson, // json
+  SiNpm, // npm
+  SiPostman, // postman
+  SiDiagramsdotnet, //dbdiagram
+  SiBootstrap, //bootstrap
+  SiFigma, // figma
+} from "react-icons/si";
 import { FaGit } from "react-icons/fa"; // git
 import { FaGithubAlt } from "react-icons/fa"; // github
-import { SiReact } from "react-icons/si"; // react
-import { SiVisualstudiocode } from "react-icons/si"; // vscode
-import { SiJson } from "react-icons/si"; // json
-import { SiNpm } from "react-icons/si"; // npm
-import { SiPostman } from "react-icons/si"; // postman
-import { SiDiagramsdotnet } from "react-icons/si"; // dbdiagram
-import { SiBootstrap } from "react-icons/si"; // bootstrap
 import { AiFillApi } from "react-icons/ai"; // api
 import { GiWireframeGlobe } from "react-icons/gi"; // wireframing
 import { RiTeamLine } from "react-icons/ri"; // teamwork
 import { FaDatabase } from "react-icons/fa"; //  crud
 import { GrCycle } from "react-icons/gr"; // agile
-import { SiFigma } from "react-icons/si"; // figma
 import { IoLogoSass } from "react-icons/io"; // sass
 import { MdDevices } from "react-icons/md"; // responsive design
 import { BiUserCircle } from "react-icons/bi"; // usability testing

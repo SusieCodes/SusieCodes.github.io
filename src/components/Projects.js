@@ -184,20 +184,20 @@ export const Projects = () => {
               </p>
 
               <div className="btn-wrapper">
-                <a
+                {/* <a
                   href="https://github.com/SusieCodes/bakersbliss"
                   target="_blank"
                   rel="noreferrer"
-                >
-                  <div className="btn-dark">Github</div>
-                </a>
-                <a
+                > */}
+                <div className="btn-dark">Github</div>
+                {/* </a> */}
+                {/* <a
                   href="https://www.figma.com/file/KZnXHz4ENAnByJ0ea8ykOu/bakersbliss?node-id=0%3A1"
                   target="_blank"
                   rel="noreferrer"
-                >
-                  <div className="btn-light">Figma</div>
-                </a>
+                  > */}
+                <div className="btn-light">Figma</div>
+                {/* </a> */}
                 {/* <a
                   href="https://www.figma.com/proto/RjPnJ4xrvjgEBBPvwayI9M/C-51-Prototype---Desktop"
                   target="_blank"

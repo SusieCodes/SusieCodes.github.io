@@ -33,7 +33,7 @@ export const MyNavbar = () => {
             </Nav.Link>
             <Nav.Link
               eventKey={4}
-              href="https://bit.ly/3rk5XM8"
+              href="https://bit.ly/3AYmvwn"
               target="_blank"
             >
               Resumé

@@ -33,7 +33,7 @@ export const MyNavbar = () => {
             </Nav.Link>
             <Nav.Link
               eventKey={4}
-              href="https://susiecodes.github.io/resume.pdf"
+              href="https://bit.ly/3rk5XM8"
               target="_blank"
             >
               Resumé

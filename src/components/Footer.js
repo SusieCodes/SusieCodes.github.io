@@ -53,7 +53,7 @@ export const Footer = () => {
         </div>
         <div className="col2">
           <p>
-            &copy; 2022 - Enthusiastically custom coded from scratch by{" "}
+            &copy; 2022 - Enthusiastically custom coded by{" "}
             <div>☆ Susie Stanley ☆</div>
           </p>
         </div>

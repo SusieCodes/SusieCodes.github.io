@@ -107,7 +107,8 @@ export const About = () => {
             <p>
               I built a 10X10 shed in the summer of 2013 by watching YouTube
               videos. Framing, rafters, ridge beams, shingles, fascia, soffits,
-              door, and window were all tackled with sweat and determination.
+              siding, door, and window were all tackled with sweat and
+              determination.
             </p>
           </div>
         </section>
